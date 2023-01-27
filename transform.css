@@ -4,5 +4,15 @@
     height: 20vw;
     border-radius: 1vw;
     padding: 1vw;
-
+    box-shadow: 0 0 10px 0 rgb(114, 72, 0); /* x y blur spread color */
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.box:hover {
+    background-color: black;
+    color: white;
+    transform: translate3d(0,-5vw,0) perspective(50px) rotateY(45deg) rotateX(-15deg) rotateZ(125deg)
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
 }

@@ -1,0 +1,15 @@
+.item1 {
+    background-color: aquamarine;
+}
+
+.item2 {
+    background-color: peru;
+}
+
+.item3 {
+    background-color: rgb(205, 63, 167);
+}
+
+.flex {
+    display: flex;
+}

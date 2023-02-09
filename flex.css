@@ -1,15 +1,29 @@
+* {
+    box-sizing: border-box; /* dont add paddings to the elements size */
+}
+
+html,body {
+    margin: 0;
+}
+
 .item1 {
     background-color: aquamarine;
+    flex-basis: 100%;
 }
 
 .item2 {
     background-color: peru;
+    flex: 3;
 }
 
 .item3 {
     background-color: rgb(205, 63, 167);
+    flex: 1;
 }
 
 .flex {
     display: flex;
+    height: 80vh;
+    background-color: #ccc;
+    flex-wrap: wrap; /* this means, break the lines */
 }
